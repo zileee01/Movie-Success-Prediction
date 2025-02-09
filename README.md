@@ -28,23 +28,35 @@ Predict if a movie will be a hit or flop based on features like budget, runtime,
 
 **Method**: POST
 
-**Sample Input**:
-```json
-{
+## Sample Input
+1. Body:
+   ```json
+    {
     "budget": 50000000,
     "runtime": 120,
     "profit_margin": 0.5,
     "release_month": 6,
     "Action": 1,
-    "Comedy": 0,
-    ...
-}
+    "Comedy": 0
+   }
 
- **Sample Response**:
-{
+  
+
+##Sample Response:
+1. Body:
+    ```json
+   {
     "prediction": 1,
     "description": "Hit"
-}
+    }
+
+
+
+
+
+
+
+
 
 
 
