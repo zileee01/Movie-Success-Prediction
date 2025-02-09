@@ -42,8 +42,7 @@ Predict if a movie will be a hit or flop based on features like budget, runtime,
 
   
 
-##Sample Response:
-1. Body:
+2. Sample Response:
     ```json
    {
     "prediction": 1,
